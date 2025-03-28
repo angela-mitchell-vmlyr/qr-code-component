@@ -1,0 +1,23 @@
+@use 'aliases';
+@use 'primitives';
+
+body {
+  background-color: var(--page-bg-color);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+[data-mode='light'] {
+  --page-bg-color: var(--color-slate--light);
+}
+
+[data-mode='dark'] {
+  --page-bg-color: var(--color-slate--dark);
+}

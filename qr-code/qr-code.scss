@@ -1,0 +1,10 @@
+.qr-code {
+  background-color: var(--qr-code-bg-color);
+}
+
+[data-mode="dark"] {
+}
+
+[data-mode="light"] {
+  --qr-code-bg-color: var(--);
+}
