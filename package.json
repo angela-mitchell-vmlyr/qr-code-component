@@ -4,7 +4,6 @@
     "sass": "^1.86.0"
   },
   "scripts": {
-    "compile:sass": "sass scss/styles.scss css/styles.css",
-    "watch:sass": "sass watch scss/styles.scss:css/styles.css"
+    "compile:sass": "sass scss/styles.scss css/styles.css"
   }
 }

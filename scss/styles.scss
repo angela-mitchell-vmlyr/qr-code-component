@@ -1,8 +1,16 @@
-@use 'aliases';
-@use 'primitives';
+@use 'imports';
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: var(--page-bg-color);
+  font-family: var(--primary-font-family), sans-serif;
+  color: var(--text-color-white);
 }
 
 .attribution {
@@ -11,13 +19,17 @@ body {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--page-link-text-color);
 }
 
 [data-mode='light'] {
-  --page-bg-color: var(--color-slate--light);
+  --page-bg-color: var(--bg-color-slate--light);
+  --page-text-color: var(--text-color-slate--medium);
+  --page-link-text-color: hsl(228, 45%, 44%);
 }
 
 [data-mode='dark'] {
-  --page-bg-color: var(--color-slate--dark);
+  --page-bg-color: var(--bg-color-slate--dark);
+  --page-text-color: var(--text-color-white);
+  --page-link-text-color: var(--text-color-white);
 }

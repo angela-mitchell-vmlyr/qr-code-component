@@ -3,13 +3,22 @@
 :root {
   // Colors
   --white: hsl(0, 0%, 100%);
+  --blue-500: hsl(216, 100%, 61%);
+  --blue-600: hsl(216, 95%, 58%);
   --slate-300: hsl(212, 45%, 89%);
   --slate-500: hsl(216, 15%, 48%);
   --slate-900: hsl(218, 44%, 22%);
 
   // Typography
-  --size-15: 15px;
+  --font-size-15: 15px;
   --font-family-outfit: 'Outfit';
   --font-weight-400: 400;
   --font-weight-700: 700;
+
+  // Spacing
+  --space-150: 10px;
+  --space-200: 16px;
+  --space-250: 20px;
+  --space-300: 24px;
+  --space-500: 40px;
 }

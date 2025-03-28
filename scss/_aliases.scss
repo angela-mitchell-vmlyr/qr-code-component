@@ -2,14 +2,35 @@
 
 :root {
   // Colors
-  --color-white: var(--white);
-  --color-slate--light: var(--slate-300);
-  --color-slate--medium: var(--slate-500);
-  --color-slate--dark: var(--slate-900);
+  --bg-color-white: var(--white);
+  --bg-color-blue: var(--blue-500);
+  --bg-color-blue--light: var(--blue-600);
+  --bg-color-slate--light: var(--slate-300);
+  --bg-color-slate--medium: var(--slate-500);
+  --bg-color-slate--dark: var(--slate-900);
+
+  --text-color-white: var(--white);
+  --text-color-blue: var(--blue-500);
+  --text-color-blue--light: var(--blue-600);
+  --text-color-slate--light: var(--slate-300);
+  --text-color-slate--medium: var(--slate-500);
+  --text-color-slate--dark: var(--slate-900);
 
   // Typography
-  --default-font-size: 15px;
-  --primary-font-family: 'Outfit';
-  --font-weight--normal: 400;
-  --font-weight--bold: 700;
+  --default-font-size: var(--font-size-15);
+  --primary-font-family: var(--font-family-outfit);
+  --font-weight--normal: var(--font-weight-400);
+  --font-weight--bold: var(--font-weight-700);
+
+  // Spacing
+  --margin-16: var(--space-200);
+  --margin-24: var(--space-300);
+
+  --padding-16: var(--space-200);
+  --padding-24: var(--space-300);
+  --padding-40: var(--space-500);
+
+  // Radius
+  --radius-10: var(--space-150);
+  --radius-20: var(--space-250);
 }
